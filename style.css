@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rubik+Pixels&display=swap');
+
+body {
+    background-image: url(./img/nuevofondo.jpg);
+    font-family: Creepster;
+}
+
+h1 {
+    color: purple;
+    background-color: rgba(0, 255, 255, 0.609);
+    text-align: center;
+
+}
+
+div {
+    height: 500px;
+    background-image: url(./img/bannernuevo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+article {
+    
+    
+    border: black 5px solid;
+    background-color: beige;
+    width: 300px;
+    display: inline-block;
+    margin: 100px;
+}
+
+article img {
+    width: 100%;
+    height: 220px;
+    background-image: url(./img/fondocart.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border-bottom: 5px solid black;
+}
+
+
+article h2, article p{
+    padding: 0 20px ;
+    text-align: center;
+    color: rgb(164, 16, 8);
+    background-color: blanchedalmond;
+}
+
+section{
+    text-align: center;
+    background-attachment: fixed;
+} 
